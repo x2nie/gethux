@@ -4,6 +4,6 @@ export default class Tix extends Tux {
     //
 
     lox(msg:string) {
-        console.log('weee!',msg)
+        console.log('yiks!',msg)
     }
 }

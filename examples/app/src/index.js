@@ -3,11 +3,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const tux_1 = __importDefault(require("tux"));
-class Tix extends tux_1.default {
-    //
-    lox(msg) {
-        console.log('yiks!', msg);
-    }
-}
-exports.default = Tix;
+var tux_1 = __importDefault(require("tux"));
+var tix_1 = __importDefault(require("tix"));
+var pet = new tux_1.default();
+pet.lox('foobar!');
+var pet2 = new tix_1.default();
+pet2.lox('zoobr!');
