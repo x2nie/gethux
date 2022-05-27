@@ -1,0 +1,29 @@
+{
+  "name": "tix",
+  "version": "1.0.0",
+  "description": "a Peer Module example",
+  "author": "Fathony L",
+  "license": "MIT",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "src/**/*.ts"
+  ],
+  "peerDependencies": {
+    "tux": "^1.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "eslint": "^8.16.0",
+    "snowpack": "^3.8.8",
+    "typescript": "^4.7.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build1": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
