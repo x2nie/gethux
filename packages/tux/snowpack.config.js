@@ -20,5 +20,5 @@ module.exports = {
     out: "./dist",
   },
   "exclude": ["node_modules", "dist"],
-  "include": ["src/"]
+  // "include": ["src/"]
 };
