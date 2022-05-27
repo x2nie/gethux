@@ -1,0 +1,28 @@
+{
+  "name": "gethux",
+  "version": "0.0.1",
+  "description": "project infrastructure experiment",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x2nie/gethux.git"
+  },
+  "keywords": [
+    "typescript",
+    "peerdependency",
+    "global",
+    "snowpack"
+  ],
+  "author": "Fathony L",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/x2nie/gethux/issues"
+  },
+  "homepage": "https://github.com/x2nie/gethux#readme",
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
